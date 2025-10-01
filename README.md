@@ -64,16 +64,17 @@ General Specifications:
 `````
 You may (but are not required to) consider the following:
 
-Your target audience can include elementary, middle, or high school students—or students at multiple levels!
+Target audience: students, researchers, and space enthusiasts interested in exoplanet science.
+
 Your tool could:
-Focus on compelling storytelling through data visualizations.
-Depict the study of exoplanets.
-Show how exoplanets are found and characterized.
-Explain the goals of NASA’s Exoplanet Exploration Program.
-Link to NASA resources online.
-You could create fun art tools that allow young students to imagine and draw what exoplanets and exoplanet systems around stars would look like.
-Consider creating an interactive tool, such as a game or quiz!
-For data and resources related to this challenge, refer to the Resources tab at the top of the page. More resources may be added before the hackathon begins.
+• Provide an interactive web interface to classify exoplanets in real time using NASA datasets (Kepler, K2, TESS).
+• Show how exoplanets are detected and confirmed, focusing on light curves and transit methods.
+• Visualize the difference between candidate planets, confirmed planets, and false positives.
+• Explain the role of NASA’s Exoplanet Exploration Program and link to official NASA resources.
+• Offer simple educational visualizations to make data science and astronomy accessible.
+• Optionally include extra interactive features (e.g., data input by users, exploration of model accuracy, or quizzes to reinforce learning).
+
+For datasets and resources, NASA’s Exoplanet Archive and mission data are integrated directly into the project.
 `````
 
 # Tecnologies
@@ -132,31 +133,55 @@ IDE's & languages:
 `````
 
 <h3>Developing tools:</h3>
-node modules<br>
-https://nodejs.org/en
-<h4>3.js<br>
-https://threejs.org/
-https-server<br>
-https://www.npmjs.com/package/http-server 
-Chrome extension<br>
-https://chromewebstore.google.com/detail/immersive-web-emulator/cgffilbpcibhmcfbgggfhfolhkfbhmik?hl=en
+
+Python & package manager
+https://www.python.org/ | https://pip.pypa.io/<br>
+Virtual environments
+https://docs.python.org/3/library/venv.html | https://python-poetry.org/<br>
+Jupyter Notebook / Lab
+https://jupyter.org/<br>
+Data analysis
+https://pandas.pydata.org/ | https://numpy.org/<br>
+Machine Learning
+https://scikit-learn.org/ | https://www.tensorflow.org/ (opcional)<br>
+Visualization
+https://matplotlib.org/<br>
+Web app (frontend ligero + backend)
+https://streamlit.io/ | https://flask.palletsprojects.com/ (alternativa)<br>
+Model persistence (opcional)
+https://joblib.readthedocs.io/en/latest/ | https://docs.python.org/3/library/pickle.html<br>
+Linting & formatting
+https://docs.astral.sh/ruff/ | https://black.readthedocs.io/<br>
+Gimp for image edit https://www.gimp.org/
+
+
 
 https://transfer.zip/#NPz9iWVB7ixCui4joykbDvnNYF9nmhztx3DvR7KgKO0,aaebfd37-0d00-4cec-81fa-0ff16557916d,R
 
-
 <h2>Webgraphy</h2>
-- https://www.spaceappschallenge.org/nasa-space-apps-2024/challenges/chronicles-of-exoplanet-exploration/ <br>
-- https://svs.gsfc.nasa.gov/13022
 
-https://drive.google.com/file/d/1S0xMR7MLOThxpB-H-dzcLzbn_6038a93/view?usp=sharing
-https://drive.google.com/file/d/14mGSkZKvfu49l8iFs73e913pcvedcDoi/view?usp=sharing
+<b>Documentation & Open-Source Principles</b><br>
+- https://k12cs.org/navigating-the-practices/ <br>
+- Principle of Citation/Code Use: Incorporate existing code, media, and libraries into original programs while citing their source. <br>
+- Use of Digital Tools: Employ digital tools (e.g., computers) to analyze very large datasets for patterns and trends. <br>
 
-https://drive.google.com/file/d/1hVwEx3KDj01JE5isXJYd-vcX7MXFF4t2/view?usp=sharing
+<b>Scientific Data & Exoplanet Context</b><br>
+- https://exoplanetarchive.ipac.caltech.edu/ <br>
+- https://es.wikipedia.org/wiki/Planeta_extrasolar <br>
+- https://es.wikipedia.org/wiki/M%C3%A9todos_de_detecci%C3%B3n_de_planetas_extrasolares <br>
+- https://www.esa.int/Science_Exploration/Space_Science/Cheops/How_to_find_an_exoplanet <br>
+
+<b>Hackathon & NASA Resources</b><br>
+- https://www.spaceappschallenge.org/ <br>
+- https://exoplanets.nasa.gov/ <br>
+
+---
+
 <h2>Document-PDF</h2>
-https://docs.google.com/document/d/1YJhD04ney8mo_zYtPxs_bnenb_9mb492uUlvESLh5YI/edit?usp=sharing
+https://docs.google.com/document/d/1YJhD04ney8mo_zYtPxs_bnenb_9mb492uUlvESLh5YI/edit?usp=sharing  
 
 <h3>Vídeo</h3>
-https://drive.google.com/file/d/16cv5urkByHFgwvqxFyNR9PsIOqHtBf5H/view?usp=sharing
+https://drive.google.com/file/d/16cv5urkByHFgwvqxFyNR9PsIOqHtBf5H/view?usp=sharing  
 
 <br>
 <h2>Participation Certificate</h2>
