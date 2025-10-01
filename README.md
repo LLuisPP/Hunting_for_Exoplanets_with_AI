@@ -44,7 +44,7 @@
 
 |Logo|Why SWAI?|
   |---|---|
-  |<a href="#"><img src="https://github.com/user-attachments/assets/6134b489-1f76-48de-a47b-5deb60949dc7" alt="swai" width="500" height="450"/></a>|The name SWAI stands for Silent Watcher Artificial Intelligence. It suggest the idea of an AI system that quietly and consistently observes stellar data, searching for the faint signals that reveal hidden worlds. By combining space-data observation with machine learning, SWAI identifies subtle patterns in light curves and improves the classification of exoplanets. The concept of the “Silent Watcher” reflects patience, precision, and the pursuit of discovery through science and technology.|
+  |<a href="#"><img src="https://github.com/user-attachments/assets/6134b489-1f76-48de-a47b-5deb60949dc7" alt="swai" width="600" height="550"/></a>|The name SWAI stands for Silent Watcher Artificial Intelligence. It suggest the idea of an AI system that quietly and consistently observes stellar data, searching for the faint signals that reveal hidden worlds. By combining space-data observation with machine learning, SWAI identifies subtle patterns in light curves and improves the classification of exoplanets. The concept of the “Silent Watcher” reflects patience, precision, and the pursuit of discovery through science and technology.|
 
 
 </div>
