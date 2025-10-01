@@ -59,8 +59,7 @@ The <b>machine learning model</b> performs supervised classification of planetar
 The <b>web interface</b> enables users to test new data points in real time, visualize outputs, and engage with the classification process. 
 
 <div align="center">
-<a href="#"><img width="500" src="https://github.com/user-attachments/assets/e1cba0b5-6ac9-433b-b432-03f75531c8ee" /></a>
-<a href="#"><img width="275" src="https://github.com/user-attachments/assets/ee16c71f-4fe1-4d97-996a-9cec2ba0e44b" /></a>
+<a href="#"><img width="700" src="https://github.com/user-attachments/assets/e1cba0b5-6ac9-433b-b432-03f75531c8ee" /></a>
 </div>
 
 General Specifications:
