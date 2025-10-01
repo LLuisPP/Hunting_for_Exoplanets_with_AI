@@ -11,7 +11,7 @@
 <table>
   <tr>
     <td align="center" width="300">ChatGPT</td>
-    <td align="center" width="300">Inanimated carbon bar</td>
+    <td align="center" width="300">Inanimated Carbon Bar</td>
     <td align="center" width="300">Luis Prieto</td>
     <td align="center" width="300">Gemini</td>
   </tr>
@@ -24,7 +24,7 @@
 
   <tr>
     <td align="center" width="500">AI model</td>
-    <td align="center" width="500">Carismatic leader </td>
+    <td align="center" width="500">Charismatic leader </td>
     <td align="center" width="500">Developer </td>
     <td align="center" width="500">AI model</td>
   </tr>
