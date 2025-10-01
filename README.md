@@ -11,8 +11,8 @@
 <table>
   <tr>
     <td align="center" width="300">ChatGPT</td>
-    <td align="center" width="300">Gemini</td>
     <td align="center" width="300">Luis Prieto</td>
+    <td align="center" width="300">Gemini</td>
   </tr>
   <tr>
     <td align="center" width="300"><a href="#"><img width="145" src="https://github.com/user-attachments/assets/82179b5a-efb6-4116-a916-3178f209662d" /></a></td>
@@ -152,8 +152,9 @@ Model persistence (opcional)
 https://joblib.readthedocs.io/en/latest/ | https://docs.python.org/3/library/pickle.html<br>
 Linting & formatting
 https://docs.astral.sh/ruff/ | https://black.readthedocs.io/<br>
-Gimp for image edit https://www.gimp.org/
-
+Gimp for image edit https://www.gimp.org/<br>
+AI image animation https://magi.sand.ai/<br>
+Video to gif tool https://ezgif.com/video-to-gif
 
 
 https://transfer.zip/#NPz9iWVB7ixCui4joykbDvnNYF9nmhztx3DvR7KgKO0,aaebfd37-0d00-4cec-81fa-0ff16557916d,R
