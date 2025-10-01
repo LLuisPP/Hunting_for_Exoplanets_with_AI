@@ -11,22 +11,26 @@
 <table>
   <tr>
     <td align="center" width="300">ChatGPT</td>
+    <td align="center" width="300">Inanimated carbon bar</td>
     <td align="center" width="300">Luis Prieto</td>
     <td align="center" width="300">Gemini</td>
   </tr>
   <tr>
     <td align="center" width="300"><a href="#"><img width="145" src="https://github.com/user-attachments/assets/82179b5a-efb6-4116-a916-3178f209662d" /></a></td>
+    <td align="center" width="300"><a href="#"><img width="145" src="https://github.com/user-attachments/assets/6da5ccdd-b659-4192-b4f0-93fba8a5a5fa" /></a></td>
     <td align="center" width="300"><a href="#"><img width="155" src="https://github.com/user-attachments/assets/9f1fe198-7ab5-48cd-b4ed-834f05da599a" /></a></td>
     <td align="center" width="300"><a href="#"><img width="153" src="https://github.com/user-attachments/assets/d3ec9f86-88c2-4516-b226-675717a81807" /></a></td>
   </tr>
 
   <tr>
     <td align="center" width="500">AI model</td>
+    <td align="center" width="500">Carismatic leader </td>
     <td align="center" width="500">Developer </td>
     <td align="center" width="500">AI model</td>
   </tr>
   <tr>
     <td align="center" width="500">Model: ChatGPT 5.0</td>
+    <td align="center" width="500">Team leader: Carbon bar </td>
     <td align="center" width="500">42 Student: lprieto-</td>
     <td align="center" width="500">Model: NotebookLM</td>
   </tr>
