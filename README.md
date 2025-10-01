@@ -1,6 +1,6 @@
 <div align="center">
 
-  # <a href="#"><img align="center" src="https://github.com/user-attachments/assets/8450f224-b9fd-4ff6-81b5-2dc1478c8873"></a> <br><br> SWAI - Hunting for Exoplanets with AI
+  # <a href="#"><img align="center" src="https://github.com/user-attachments/assets/81da15bc-f84e-49f0-9b1c-5ab52ed89a28"></a> <br><br> SWAI - Hunting for Exoplanets with AI
 <br>Silent Watcher AI (SWAI) is an interactive project that combines AI with NASA’s open datasets to classify and explore exoplanets. It makes cutting-edge space science accessible through an intuitive web interface, fostering curiosity, learning, and engagement in the search for new worlds beyond our solar system.
 </div>
 
