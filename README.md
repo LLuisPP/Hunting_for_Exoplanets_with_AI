@@ -102,7 +102,8 @@ IDE's & languages:
       • TensorFlow / Scikit-learn <br>
       • Pandas / NumPy <br>
       • Matplotlib / Seaborn <br>
-      • Flask / Streamlit (for web interface) <br>
+      • Streamlit (local web interface) <br>
+      • Render (static lightwheigt web interface) <br>
       • GitHub Actions (deployment & CI/CD)
     </td>
   </tr>
