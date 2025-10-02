@@ -150,14 +150,21 @@ streamlit run app.py
 http://localhost:8080
 `````
 5 - Or simply access the deployed version directly on Render:
+
 SWAI Explore Exoplanets (Hosted on Render) -> [SWAI_static_web](https://swai-nasa-spaceapps2025.onrender.com/)
 
+Or using QR:<br>
+
+<div align="center">
+<a href="https://swai-nasa-spaceapps2025.onrender.com/"><img align="center" width="467" height="470" alt="SWAI_staticweb" src="https://github.com/user-attachments/assets/947eca99-4a91-4c77-98dd-84cca32e399a" /></a>
+</div>
 
 <h3>Light static web model:</h3>
 
-<a href="https://swai-nasa-spaceapps2025.onrender.com/"><img width="965" height="680" alt="SWAI_web_model" src="https://github.com/user-attachments/assets/87136511-5f91-436a-9fb9-9c5645a4b471" /></a>
-
-
+<div align="center">
+<a href="https://swai-nasa-spaceapps2025.onrender.com/"><img align="center" width="950" height="750" alt="SWAI_web" src="https://github.com/user-attachments/assets/27907b9e-7232-4d69-af0f-273d3bcda2b0" /></a>
+</div>
+  
 <h3>Developing tools:</h3>
 
 Python & package manager
