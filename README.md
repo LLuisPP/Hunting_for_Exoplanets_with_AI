@@ -119,28 +119,38 @@ IDE's & languages:
 > To run the project locally you must have Python 3.9+ installed and set up a virtual environment. All other dependencies can be installed via pip install -r requirements.txt.
 
 
-`````
 How to run:
 
 1 - Clone or download the repository.
+`````
 git clone https://github.com/tu-usuario/swai-exoplanets.git
-
+`````
+`````
 cd swai-exoplanets
-
+`````
 2 - (Optional) Create a virtual environment and install dependencies:
+`````
 python -m venv venv
+`````
+`````
 source venv/bin/activate # Linux / Mac
+`````
+`````
 venv\Scripts\activate # Windows
+`````
+`````
 pip install -r requirements.txt
-
+`````
 3 - Run the app locally (if you don’t want to use the hosted version):
+`````
 streamlit run app.py
-
+`````
 4 - Open your browser at:
-http://localhost:8501
-
+`````
+http://localhost:8080
+`````
 5 - Or simply access the deployed version directly on Render:
-SWAI Explore Exoplanets (Hosted on Render) -> https://tu-app-en-render.com
+SWAI Explore Exoplanets (Hosted on Render) -> [SWAI_static_web](https://swai-nasa-spaceapps2025.onrender.com/)
 
 `````
 
