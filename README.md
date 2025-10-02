@@ -115,23 +115,31 @@ IDE's & languages:
 <h3>How to install: <a href="#"><img align="right" src="https://img.shields.io/badge/Instructions-INSTALL-red"></a></h3> 
 
 > [!WARNING]
-> You need to install at least blender, and the local server in order to execute the program
+> To run the project locally you must have Python 3.9+ installed and set up a virtual environment. All other dependencies can be installed via pip install -r requirements.txt.
 
 
 `````
-1- Donwload repo files.
-  A. Install Node.js
-    Download and install from nodejs.org.
-  B. Install Three.js
-    npm install three
-  C. Install a local server
-    npm install -g http-server
+How to run:
 
-2- Run local https-server in your terminal: if you dont have one on your computer:
-    run server certificates :    openssl req -nodes -new -x509 -keyout server.key -out server.cert
-    run server:                  http-server -S -C server.cert -K server.key -p 3000 -c-1
-3- Load on your browser the net IP shown in the server status in your terminal.
-4- If you dont have VR Googles, controlers are shown using VR browser extension.
+1 - Clone or download the repository.
+git clone https://github.com/tu-usuario/swai-exoplanets.git
+
+cd swai-exoplanets
+
+2 - (Optional) Create a virtual environment and install dependencies:
+python -m venv venv
+source venv/bin/activate # Linux / Mac
+venv\Scripts\activate # Windows
+pip install -r requirements.txt
+
+3 - Run the app locally (if you don’t want to use the hosted version):
+streamlit run app.py
+
+4 - Open your browser at:
+http://localhost:8501
+
+5 - Or simply access the deployed version directly on Render:
+SWAI Explore Exoplanets (Hosted on Render) -> https://tu-app-en-render.com
 
 `````
 
