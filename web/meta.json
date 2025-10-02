@@ -1,0 +1,13 @@
+{
+  "features": [
+    "orbital_period",
+    "transit_duration",
+    "transit_depth",
+    "planet_radius"
+  ],
+  "classes": [
+    "CANDIDATE",
+    "CONFIRMED",
+    "FALSE POSITIVE"
+  ]
+}
