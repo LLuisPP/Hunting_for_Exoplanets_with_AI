@@ -152,7 +152,6 @@ http://localhost:8080
 5 - Or simply access the deployed version directly on Render:
 SWAI Explore Exoplanets (Hosted on Render) -> [SWAI_static_web](https://swai-nasa-spaceapps2025.onrender.com/)
 
-`````
 
 <h3>Light static web model:</h3>
 
