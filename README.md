@@ -155,7 +155,7 @@ SWAI Explore Exoplanets (Hosted on Render) -> [SWAI_static_web](https://swai-nas
 
 <h3>Light static web model:</h3>
 
-<a href="https://swai-nasa-spaceapps2025.onrender.com/"><img width="965" height="680" alt="SWAI_web_model" src="https://github.com/user-attachments/assets/3a2ff028-3ab0-4e44-bb3d-8ddd99168b8e" /></a>
+<a href="https://swai-nasa-spaceapps2025.onrender.com/"><img width="965" height="680" alt="SWAI_web_model" src="https://github.com/user-attachments/assets/87136511-5f91-436a-9fb9-9c5645a4b471" /></a>
 
 
 <h3>Developing tools:</h3>
