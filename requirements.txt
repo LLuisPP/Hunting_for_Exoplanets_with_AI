@@ -6,3 +6,6 @@ streamlit>=1.36
 matplotlib>=3.8
 requests>=2.32
 tqdm>=4.66
+skl2onnx>=1.17
+onnx>=1.16
+onnxruntime>=1.18
