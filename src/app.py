@@ -21,7 +21,7 @@ def read_metrics(path="artifacts/metrics.json"):
 
 st.set_page_config(page_title="Exoplanet Classifier", page_icon="🪐", layout="centered")
 st.title("🪐 Exoplanet Classifier (Kepler+TESS)")
-st.caption("Clasifica: CONFIRMED / CANDIDATE / FALSE POSITIVE")
+st.caption("Clasifies as: CONFIRMED / CANDIDATE / FALSE POSITIVE")
 
 MODEL = Path("artifacts/model.joblib")
 FEATS = ["orbital_period","transit_duration","transit_depth","planet_radius"]
