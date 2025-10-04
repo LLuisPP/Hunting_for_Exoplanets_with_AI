@@ -9,6 +9,8 @@ artifacts/*
 !artifacts/.gitkeep
 !artifacts/gifs/
 !artifacts/gifs/**
+!artifacts/backgrounds/
+!artifacts/backgrounds/**
 
 data/*
 !data/.gitkeep

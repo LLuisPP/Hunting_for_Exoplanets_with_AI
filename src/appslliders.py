@@ -7,9 +7,9 @@ MODEL = Path("artifacts/model.joblib")
 FEATS = ["orbital_period","transit_duration","transit_depth","planet_radius"]
 
 SLIDER_LIMITS = {
-    "orbital_period":   dict(min=0.0,   max=1000.0, step=0.1,  default=17.0,  unit="days"),
-    "transit_duration": dict(min=0.0,   max=30.0,   step=0.05, default=9.0,   unit="hours"),
-    "transit_depth":    dict(min=0.0,   max=20000.0,step=10.0, default=1000.0, unit="ppm"),
+    "orbital_period":   dict(min=0.0,   max=1000.0, step=0.1,  default=150.0,  unit="days"),
+    "transit_duration": dict(min=0.0,   max=30.0,   step=0.05, default=5.0,   unit="hours"),
+    "transit_depth":    dict(min=0.0,   max=20000.0,step=10.0, default=3000.0, unit="ppm"),
     "planet_radius":    dict(min=0.0,   max=40.0,   step=0.1,  default=7.0,   unit="R_earth"),
 }
 
@@ -17,7 +17,6 @@ SLIDER_LIMITS = {
 
 RESPONSIVE_CSS = """
 <style>
-/* ... tu CSS existente ... */
 
 /* === Tipografía fluida para st.metric en "Input snapshot" === */
 /* Valores (números grandes) */
@@ -136,6 +135,53 @@ def show_media_for(pred_cls: str):
 
 # -------------------- UI --------------------
 st.set_page_config(page_title="SWAI - Exoplanet Classifier", page_icon="🪐", layout="wide")
+
+RESPONSIVE_CSS += """
+<style>
+/* === COLOR AZUL GLOBAL (sliders y botones) === */
+:root {
+  --swai-blue: #007BFF;  /* puedes ajustar el tono de azul aquí */
+}
+
+/* Sliders (barra y círculo) */
+div[data-testid="stSlider"] > div > div > div {
+  background: var(--swai-blue) !important;    /* barra activa */
+}
+div[data-testid="stSlider"] [role="slider"] {
+  background-color: var(--swai-blue) !important; /* botón circular */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3) !important;
+}
+
+/* Hover y foco para slider */
+div[data-testid="stSlider"] [role="slider"]:hover {
+  background-color: #339CFF !important;
+}
+
+/* Botones principales (Predict, etc.) */
+button[kind="primary"],
+.stButton > button {
+  background-color: var(--swai-blue) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 500 !important;
+  border-radius: 8px !important;
+  transition: background-color 0.2s ease-in-out;
+}
+button[kind="primary"]:hover,
+.stButton > button:hover {
+  background-color: #339CFF !important;
+}
+
+/* Bordes suaves en inputs */
+input, textarea {
+  border: 1px solid #aacdfd !important;
+  border-radius: 6px !important;
+}
+
+</style>
+"""
+
+
 st.markdown(RESPONSIVE_CSS, unsafe_allow_html=True)
 
 st.title("Silent Watcher AI 🪐 Exoplanet Classifier")
@@ -163,7 +209,7 @@ with c1:
         max_value=float(pconf["max"]),
         value=float(pconf["default"]),
         step=float(pconf["step"]),
-        help="Days"
+        help="Time for one full orbit around the star"
     )
     dconf = SLIDER_LIMITS["transit_depth"]
     depth = st.slider(
@@ -172,7 +218,7 @@ with c1:
         max_value=float(dconf["max"]),
         value=float(dconf["default"]),
         step=float(dconf["step"]),
-        help="ppm"
+        help="Drop in starlight during a transit, in parts per million"
     )
 with c2:
     tconf = SLIDER_LIMITS["transit_duration"]
@@ -182,7 +228,7 @@ with c2:
         max_value=float(tconf["max"]),
         value=float(tconf["default"]),
         step=float(tconf["step"]),
-        help="Hours"
+        help="Time the planet takes to cross the star"
     )
     rconf = SLIDER_LIMITS["planet_radius"]
     radius = st.slider(
@@ -191,7 +237,7 @@ with c2:
         max_value=float(rconf["max"]),
         value=float(rconf["default"]),
         step=float(rconf["step"]),
-        help="Earth radii"
+        help="Planet size in Earth radii proportion"
     )
 
 # -------- Predict --------
