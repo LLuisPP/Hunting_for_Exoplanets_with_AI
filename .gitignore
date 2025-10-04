@@ -7,6 +7,8 @@ __pycache__/
 # ML artifacts & datasets
 artifacts/*
 !artifacts/.gitkeep
+!artifacts/gifs/
+!artifacts/gifs/**
 
 data/*
 !data/.gitkeep
@@ -19,5 +21,4 @@ data/*
 *.bin
 *.csv
 !*.sample.csv
-
 
