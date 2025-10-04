@@ -136,14 +136,12 @@ git clone https://github.com/LLuisPP/Hunting_for_Exoplanets_with_AI.git swai
 `````
 cd swai-exoplanets
 `````
-2 - (Optional) Create a virtual environment and install dependencies:
+2 - Create a virtual environment and install dependencies:
 `````
 python -m venv venv
 `````
 `````
 source venv/bin/activate # Linux / Mac
-`````
-`````
 venv\Scripts\activate # Windows
 `````
 `````
