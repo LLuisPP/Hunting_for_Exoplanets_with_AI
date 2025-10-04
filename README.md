@@ -131,7 +131,7 @@ How to run:
 
 1 - Clone or download the repository.
 `````
-git clone https://github.com/tu-usuario/swai-exoplanets.git
+git clone https://github.com/LLuisPP/Hunting_for_Exoplanets_with_AI.git swai
 `````
 `````
 cd swai-exoplanets
@@ -149,13 +149,21 @@ venv\Scripts\activate # Windows
 `````
 pip install -r requirements.txt
 `````
+Fetch data from NASA resource site: [Link](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative)
+`````
+python3 src/fetch_data.py
+`````
+Train the model:
+`````
+python3 src/train_model.py
+`````
 3 - Run the app locally (if you don’t want to use the hosted version):
 `````
-streamlit run app.py
+streamlit run src/app.py
 `````
-4 - Open your browser at:
+4 - Open your browser at localhost shown in terminal:
 `````
-http://localhost:8080
+http://localhost:8501
 `````
 5 - Or simply access the deployed version directly on Render:
 
