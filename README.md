@@ -4,6 +4,23 @@
 <br>Silent Watcher AI (SWAI) is an interactive project that combines AI with NASA’s open datasets to classify and explore exoplanets. It makes cutting-edge space science accessible through an intuitive web interface, fostering curiosity, learning, and engagement in the search for new worlds beyond our solar system.
 </div>
 
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="300"><a href="#"><img width="370" src="https://github.com/user-attachments/assets/f0a5533f-78ec-4974-ae8e-6cbb47ea6360" /></a></td>
+    <td align="center" width="300"><a href="#"><img width="600" src="https://github.com/user-attachments/assets/249b87c2-cc57-488b-89fa-7ed67822380d" /></a></td>
+  </tr>
+
+  <tr>
+    <td align="center" width="500">https://swai-nasa-spaceapps2025.onrender.com/</td>
+    <td align="center" width="500">Video sample</td>
+  </tr>
+</table><br>
+
+
+
+
+
 <h2 align="center">Meet the SWAI (Silent Watcher AI) members:</h2>
 
 
@@ -53,7 +70,7 @@ Performing 'A World Away: Hunting for Exoplanets with AI' from NASA Spaceapps Ch
 
 |Logo|Why SWAI?|
   |---|---|
-  |<a href="#"><img src="https://github.com/user-attachments/assets/6134b489-1f76-48de-a47b-5deb60949dc7" alt="swai" width="600" height="550"/></a>|The name SWAI stands for Silent Watcher Artificial Intelligence. It suggest the idea of an AI system that quietly and consistently observes stellar data, searching for the faint signals that reveal hidden worlds.|
+  |<a href="#"><img src="https://github.com/user-attachments/assets/d3d34f7c-4832-40e0-bbca-7f56ff3be072" alt="swai" width="600" height="550"/></a>|The name SWAI stands for Silent Watcher Artificial Intelligence. It suggest the idea of an AI system that quietly and consistently observes stellar data, searching for the faint signals that reveal hidden worlds.|
 
 
 </div>
