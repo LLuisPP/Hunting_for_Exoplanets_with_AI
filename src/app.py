@@ -53,6 +53,19 @@ RESPONSIVE_CSS = """
 @media (max-width: 520px) {
   .metric-row > [data-testid="column"] { flex: 1 1 100%; }
 }
+
+.main {
+  background: url("artifacts/backgrounds/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 1rem;
+}
+
+header, [data-testid="stHeader"] {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
 </style>
 """
 
@@ -135,7 +148,92 @@ def show_media_for(pred_cls: str):
         st.exception(e)
 
 # -------------------- UI --------------------
+import base64, mimetypes
+
+def set_page_background(img_path: str | Path):
+    p = Path(img_path)
+    if not p.exists():
+        # Fallback: degradado si no encuentra la imagen
+        st.markdown("""
+        <style>
+        [data-testid="stAppViewContainer"]{
+          background: radial-gradient(circle at 30% 20%, #0b132b 0%, #000814 100%) fixed;
+        }
+        [data-testid="stHeader"]{ background: transparent !important; box-shadow: none !important; }
+        </style>
+        """, unsafe_allow_html=True)
+        return
+
+    mime, _ = mimetypes.guess_type(str(p))
+    if not mime:  # por si acaso
+        mime = "image/png"
+
+    b64 = base64.b64encode(p.read_bytes()).decode("utf-8")
+    st.markdown(f"""
+    <style>
+    /* Fondo en TODO el contenedor de la app */
+    [data-testid="stAppViewContainer"] {{
+      background: url("data:{mime};base64,{b64}") no-repeat center center fixed;
+      background-size: cover;
+    }}
+    /* Header sin fondo */
+    [data-testid="stHeader"] {{
+      background: transparent !important;
+      backdrop-filter: none !important;
+      box-shadow: none !important;
+    }}
+    /* Asegura que el contenido no tape el header */
+    .block-container {{ padding-top: 1rem !important; }}
+    </style>
+    """, unsafe_allow_html=True)
+
+RESPONSIVE_CSS += """
+<style>
+/* === COLOR AZUL GLOBAL (sliders y botones) === */
+:root {
+  --swai-blue: #007BFF;  /* puedes ajustar el tono de azul aquí */
+}
+
+/* Sliders (barra y círculo) */
+div[data-testid="stSlider"] > div > div > div {
+  background: var(--swai-blue) !important;    /* barra activa */
+}
+div[data-testid="stSlider"] [role="slider"] {
+  background-color: var(--swai-blue) !important; /* botón circular */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3) !important;
+}
+
+/* Hover y foco para slider */
+div[data-testid="stSlider"] [role="slider"]:hover {
+  background-color: #339CFF !important;
+}
+
+/* Botones principales (Predict, etc.) */
+button[kind="primary"],
+.stButton > button {
+  background-color: var(--swai-blue) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 500 !important;
+  border-radius: 8px !important;
+  transition: background-color 0.2s ease-in-out;
+}
+button[kind="primary"]:hover,
+.stButton > button:hover {
+  background-color: #339CFF !important;
+}
+
+/* Bordes suaves en inputs */
+input, textarea {
+  border: 1px solid #aacdfd !important;
+  border-radius: 6px !important;
+}
+
+</style>
+"""
+
 st.set_page_config(page_title="SWAI - Exoplanet Classifier", page_icon="🪐", layout="wide")
+set_page_background("artifacts/backgrounds/bg.jpg")
 st.markdown(RESPONSIVE_CSS, unsafe_allow_html=True)
 
 st.title("Silent Watcher AI 🪐 Exoplanet Classifier")
@@ -163,7 +261,7 @@ with c1:
         max_value=float(pconf["max"]),
         value=float(pconf["default"]),
         step=float(pconf["step"]),
-        help="Days"
+        help="Time for one full orbit around the star"
     )
     dconf = SLIDER_LIMITS["transit_depth"]
     depth = st.slider(
@@ -172,7 +270,7 @@ with c1:
         max_value=float(dconf["max"]),
         value=float(dconf["default"]),
         step=float(dconf["step"]),
-        help="ppm"
+        help="Drop in starlight during a transit, in parts per million"
     )
 with c2:
     tconf = SLIDER_LIMITS["transit_duration"]
@@ -182,7 +280,7 @@ with c2:
         max_value=float(tconf["max"]),
         value=float(tconf["default"]),
         step=float(tconf["step"]),
-        help="Hours"
+        help="Time the planet takes to cross the star"
     )
     rconf = SLIDER_LIMITS["planet_radius"]
     radius = st.slider(
@@ -191,7 +289,7 @@ with c2:
         max_value=float(rconf["max"]),
         value=float(rconf["default"]),
         step=float(rconf["step"]),
-        help="Earth radii"
+        help="Planet size in Earth radii proportion"
     )
 
 # -------- Predict --------
