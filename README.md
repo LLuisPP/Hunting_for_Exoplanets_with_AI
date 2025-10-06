@@ -264,7 +264,9 @@ Video to gif tool https://ezgif.com/video-to-gif
 <h2>Document-PDF</h2>
 
 <h3>Vídeo</h3>
+<div align="center">
 <a href="https://drive.google.com/file/d/1naw4lbMAdlfVvRZBHh5gEUPbNW4uuqKs/view?usp=drive_link"><img width="600" src="https://github.com/user-attachments/assets/249b87c2-cc57-488b-89fa-7ed67822380d" /></a><br>
+</div>
 <h2>Participation Certificate</h2>
 <div align="center">
 <a href="#"><img width="700" src="https://github.com/user-attachments/assets/b6d6ce35-0c8c-4fb5-9751-50465f1e5f8f" /></a>
