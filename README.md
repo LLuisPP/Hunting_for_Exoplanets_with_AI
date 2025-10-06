@@ -7,14 +7,10 @@
 <div align="center">
 <table>
   <tr>
-    <td align="center" width="300"><a href="#"><img width="370" src="https://github.com/user-attachments/assets/f0a5533f-78ec-4974-ae8e-6cbb47ea6360" /></a></td>
-    <td align="center" width="300"><a href="#"><img width="600" src="https://github.com/user-attachments/assets/249b87c2-cc57-488b-89fa-7ed67822380d" /></a></td>
+    <td align="center" width="300"><a href="https://swai-nasa-spaceapps2025.onrender.com/"><img width="500" src="https://github.com/user-attachments/assets/f0a5533f-78ec-4974-ae8e-6cbb47ea6360" /></a></td>
+    <td align="center" width="300"><a href="https://drive.google.com/file/d/1naw4lbMAdlfVvRZBHh5gEUPbNW4uuqKs/view?usp=drive_link"><img width="500" src="https://github.com/user-attachments/assets/249b87c2-cc57-488b-89fa-7ed67822380d" /></a></td>
   </tr>
 
-  <tr>
-    <td align="center" width="500">https://swai-nasa-spaceapps2025.onrender.com/</td>
-    <td align="center" width="500">Video sample</td>
-  </tr>
 </table><br>
 
 
@@ -268,8 +264,7 @@ Video to gif tool https://ezgif.com/video-to-gif
 <h2>Document-PDF</h2>
 
 <h3>Vídeo</h3>
-[SWAI - Silent Watcher AI](https://drive.google.com/file/d/1naw4lbMAdlfVvRZBHh5gEUPbNW4uuqKs/view?usp=drive_link)
-<br>
+<a href="https://drive.google.com/file/d/1naw4lbMAdlfVvRZBHh5gEUPbNW4uuqKs/view?usp=drive_link"><img width="600" src="https://github.com/user-attachments/assets/249b87c2-cc57-488b-89fa-7ed67822380d" /></a><br>
 <h2>Participation Certificate</h2>
 <div align="center">
 <a href="#"><img width="700" src="https://github.com/user-attachments/assets/b6d6ce35-0c8c-4fb5-9751-50465f1e5f8f" /></a>
