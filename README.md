@@ -119,6 +119,31 @@ IDE's & languages:
 </table>
 </div>
 
+## <h3> Model Overview</h3>
+<div align="left">
+The model uses supervised machine learning to classify potential exoplanet candidates based on key astrophysical parameters. It was developed primarily with:
+
+<div align="center">
+  <img width="425" height="150" alt="scikit+python" src="https://github.com/user-attachments/assets/ada73c8d-804f-4237-bffc-1222953eda17" />
+</div>
+
+The algorithm processes tabular input data derived from NASA’s Exoplanet Archive, which includes parameters such as:
+- Orbital period
+- Transit duration
+- Radius ratio (Rp/Rs)
+- Impact parameter
+- Signal-to-noise ratio (SNR)
+- Stellar effective temperature
+
+After preprocessing and feature normalization, the model is trained to predict whether a candidate is likely to be:
+- Confirmed Planet
+- Candidate
+- False Positive
+
+The classifier outputs both the predicted label and a confidence score, representing the model’s estimated probability of the prediction being correct. This score is displayed in the interface as a “trust” or “confidence” percentage.
+
+The trained model is serialized and stored as an artifact for later inference within the Streamlit web interface, allowing users to input new observation parameters and instantly receive classification results.
+</div>
   
 </div>
 
