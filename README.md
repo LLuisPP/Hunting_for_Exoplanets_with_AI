@@ -50,7 +50,7 @@
   <tr>
     <td align="center" width="500">Video & speech</td>
     <td align="center" width="500">Design & video</td>
-    <td align="center" width="500">UI & 3d modeling</td>
+    <td align="center" width="500">UI & 3D modeling</td>
     <td align="center" width="500">Web interface & document</td>
     <td align="center" width="500">Model training</td>
     <td align="center" width="500">Technical content</td>
