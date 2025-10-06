@@ -215,9 +215,9 @@ Or using QR:<br>
 <h3>Light static web model:</h3>
 
 <div align="center">
-<a href="https://swai-nasa-spaceapps2025.onrender.com/"><img align="center" width="950" height="750" alt="SWAI_web" src="https://github.com/user-attachments/assets/5fdc93f1-f208-4f2b-9409-1eb05fbeacc4" /></a>
+<a href="https://swai-nasa-spaceapps2025.onrender.com/"><img align="center" width="950" height="750" alt="SWAI_web" src="https://github.com/user-attachments/assets/1adcccf9-a40b-4693-ba66-c8892365b9fd" /></a>
 </div>
-  
+
 <h3>Developing tools:</h3>
 
 Python & package manager
