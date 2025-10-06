@@ -20,8 +20,8 @@
   <tr>
     <td align="center" width="300"><a href="#"><img width="145" height="170" src="https://github.com/user-attachments/assets/4b30a2f6-1462-4230-88c2-fe0373d2ec85" /></a></td>
     <td align="center" width="300"><a href="#"><img width="145" height="170" src="https://github.com/user-attachments/assets/b08d4c96-16c3-4659-8960-0ad444042cf2" /></a></td>
-    <td align="center" width="300"><a href="#"><img width="145" height="170" src="https://github.com/user-attachments/assets/4ed3f226-177c-45b9-baab-9ef1faad5987" /></a></td>
-    <td align="center" width="300"><a href="#"><img width="135" height="170" src="https://github.com/user-attachments/assets/87b4db6f-7936-46dd-a279-cd9e3f1d6b94" /></a></td>
+    <td align="center" width="300"><a href="#"><img width="145" height="170" src="https://github.com/user-attachments/assets/d66eefb5-c8ea-47a6-86a3-58ec93142051" /></a></td>
+    <td align="center" width="300"><a href="#"><img width="135" height="170" src="https://github.com/user-attachments/assets/507df891-fb46-45a8-937b-6140e8ed2c1d" /></a></td>
     <td align="center" width="300"><a href="#"><img width="155" height="170" src="https://github.com/user-attachments/assets/9f1fe198-7ab5-48cd-b4ed-834f05da599a" /></a></td>
     <td align="center" width="300"><a href="#"><img width="153" height="170" src="https://github.com/user-attachments/assets/ba254c8e-ac68-45e5-ba73-1ad528781b4f" /></a></td>
   </tr>
@@ -204,9 +204,6 @@ Gimp for image edit https://www.gimp.org/<br>
 AI image animation https://magi.sand.ai/<br>
 Video to gif tool https://ezgif.com/video-to-gif
 
-
-https://transfer.zip/#NPz9iWVB7ixCui4joykbDvnNYF9nmhztx3DvR7KgKO0,aaebfd37-0d00-4cec-81fa-0ff16557916d,R
-
 <h2>Webgraphy</h2>
 
 <b>Documentation & Open-Source Principles</b><br>
@@ -227,7 +224,6 @@ https://transfer.zip/#NPz9iWVB7ixCui4joykbDvnNYF9nmhztx3DvR7KgKO0,aaebfd37-0d00-
 ---
 
 <h2>Document-PDF</h2>
-https://docs.google.com/document/d/1YJhD04ney8mo_zYtPxs_bnenb_9mb492uUlvESLh5YI/edit?usp=sharing  
 
 <h3>Vídeo</h3>
 [SWAI - Silent Watcher AI](https://drive.google.com/file/d/1naw4lbMAdlfVvRZBHh5gEUPbNW4uuqKs/view?usp=drive_link)
