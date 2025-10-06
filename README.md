@@ -262,7 +262,7 @@ Video to gif tool https://ezgif.com/video-to-gif
 ---
 
 <h2>Document-PDF</h2>
-
+https://github.com/LLuisPP/Hunting_for_Exoplanets_with_AI/blob/main/SWAI.pdf
 <h3>Vídeo</h3>
 <div align="center">
 <a href="https://drive.google.com/file/d/1naw4lbMAdlfVvRZBHh5gEUPbNW4uuqKs/view?usp=drive_link"><img width="600" src="https://github.com/user-attachments/assets/249b87c2-cc57-488b-89fa-7ed67822380d" /></a><br>
