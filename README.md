@@ -4,7 +4,7 @@
 <br>Silent Watcher AI (SWAI) is an interactive project that combines AI with NASA’s open datasets to classify and explore exoplanets. It makes cutting-edge space science accessible through an intuitive web interface, fostering curiosity, learning, and engagement in the search for new worlds beyond our solar system.
 </div>
 
-<h2 align="center">Welcome to 'A World Away: Hunting for Exoplanets with AI'. <br> I teamed up with AI to form Team SWAI, from 42 Bcn</h2>
+<h2 align="center">Welcome to 'A World Away: Hunting for Exoplanets with AI'. <br> Meet the SWAI members: Bcn</h2>
 
 
 <div align="center">
@@ -35,12 +35,12 @@
     <td align="center" width="500">Developer</td>
   </tr>
   <tr>
-    <td align="center" width="500">Developer</td>
-    <td align="center" width="500">Designer</td>
-    <td align="center" width="500">Developer</td>
-    <td align="center" width="500">Developer</td>
-    <td align="center" width="500">Developer</td>
-    <td align="center" width="500">Engineer</td>
+    <td align="center" width="500">Video & speech</td>
+    <td align="center" width="500">Design & video</td>
+    <td align="center" width="500">UI & 3d modeling</td>
+    <td align="center" width="500">Web interface & documentation</td>
+    <td align="center" width="500">Model training</td>
+    <td align="center" width="500">Technical content</td>
   </tr>
 </table>
 
@@ -229,10 +229,9 @@ https://transfer.zip/#NPz9iWVB7ixCui4joykbDvnNYF9nmhztx3DvR7KgKO0,aaebfd37-0d00-
 https://docs.google.com/document/d/1YJhD04ney8mo_zYtPxs_bnenb_9mb492uUlvESLh5YI/edit?usp=sharing  
 
 <h3>Vídeo</h3>
-https://drive.google.com/file/d/16cv5urkByHFgwvqxFyNR9PsIOqHtBf5H/view?usp=sharing  
-
+[SWAI - Silent Watcher AI](https://drive.google.com/file/d/1naw4lbMAdlfVvRZBHh5gEUPbNW4uuqKs/view?usp=drive_link)
 <br>
 <h2>Participation Certificate</h2>
 <div align="center">
-<a href="#"><img width="700" src="https://github.com/user-attachments/assets/aa764ce1-18b4-4631-b12b-8b637774817f" /></a>
+<a href="#"><img width="700" src="https://github.com/user-attachments/assets/b6d6ce35-0c8c-4fb5-9751-50465f1e5f8f" /></a>
 </div>
