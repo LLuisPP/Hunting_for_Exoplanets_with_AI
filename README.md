@@ -18,12 +18,12 @@
     <td align="center" width="300">Hala</td>
   </tr>
   <tr>
-    <td align="center" width="300"><a href="#"><img width="145" src="https://github.com/user-attachments/assets/4b30a2f6-1462-4230-88c2-fe0373d2ec85" /></a></td>
-    <td align="center" width="300"><a href="#"><img width="145" src="https://github.com/user-attachments/assets/2e57f619-5dd7-4a7c-8f43-2a05d8d82722" /></a></td>
-    <td align="center" width="300"><a href="#"><img width="145" src="https://github.com/user-attachments/assets/4ed3f226-177c-45b9-baab-9ef1faad5987" /></a></td>
-    <td align="center" width="260"><a href="#"><img width="140" src="https://github.com/user-attachments/assets/87b4db6f-7936-46dd-a279-cd9e3f1d6b94" /></a></td>
-    <td align="center" width="300"><a href="#"><img width="155" src="https://github.com/user-attachments/assets/9f1fe198-7ab5-48cd-b4ed-834f05da599a" /></a></td>
-    <td align="center" width="300"><a href="#"><img width="153" src="https://github.com/user-attachments/assets/ba254c8e-ac68-45e5-ba73-1ad528781b4f" /></a></td>
+    <td align="center" width="300"><a href="#"><img width="145" height="170" src="https://github.com/user-attachments/assets/4b30a2f6-1462-4230-88c2-fe0373d2ec85" /></a></td>
+    <td align="center" width="300"><a href="#"><img width="145" height="170" src="https://github.com/user-attachments/assets/b08d4c96-16c3-4659-8960-0ad444042cf2" /></a></td>
+    <td align="center" width="300"><a href="#"><img width="145" height="170" src="https://github.com/user-attachments/assets/4ed3f226-177c-45b9-baab-9ef1faad5987" /></a></td>
+    <td align="center" width="300"><a href="#"><img width="135" height="170" src="https://github.com/user-attachments/assets/87b4db6f-7936-46dd-a279-cd9e3f1d6b94" /></a></td>
+    <td align="center" width="300"><a href="#"><img width="155" height="170" src="https://github.com/user-attachments/assets/9f1fe198-7ab5-48cd-b4ed-834f05da599a" /></a></td>
+    <td align="center" width="300"><a href="#"><img width="153" height="170" src="https://github.com/user-attachments/assets/ba254c8e-ac68-45e5-ba73-1ad528781b4f" /></a></td>
   </tr>
 
   <tr>
@@ -176,7 +176,7 @@ Or using QR:<br>
 <h3>Light static web model:</h3>
 
 <div align="center">
-<a href="https://swai-nasa-spaceapps2025.onrender.com/"><img align="center" width="950" height="750" alt="SWAI_web" src="https://github.com/user-attachments/assets/27907b9e-7232-4d69-af0f-273d3bcda2b0" /></a>
+<a href="https://swai-nasa-spaceapps2025.onrender.com/"><img align="center" width="950" height="750" alt="SWAI_web" src="https://github.com/user-attachments/assets/5fdc93f1-f208-4f2b-9409-1eb05fbeacc4" /></a>
 </div>
   
 <h3>Developing tools:</h3>
